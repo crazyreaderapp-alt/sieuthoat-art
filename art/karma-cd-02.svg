@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#1d3a34"/><stop offset="60%" stop-color="#10241f"/><stop offset="100%" stop-color="#081310"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8f7ff" stop-opacity=".8"/><stop offset="55%" stop-color="#a8d8f0" stop-opacity=".25"/><stop offset="100%" stop-color="#a8d8f0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="jade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eafff5"/><stop offset="55%" stop-color="#9fd8c8"/><stop offset="100%" stop-color="#4d8a76"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="420" fill="url(#bg)"/>
+  <circle cx="150" cy="180" r="115" fill="url(#halo)"/>
+  <!-- Tịnh bình -->
+  <g>
+    <path d="M118 150 Q118 128 150 128 Q182 128 182 150 L172 160 L172 240 Q172 262 150 262 Q128 262 128 240 L128 160 Z" fill="url(#jade)" opacity=".92"/>
+    <ellipse cx="150" cy="150" rx="32" ry="10" fill="#0d2420" opacity=".55"/>
+    <path d="M132 118 Q150 100 168 118" stroke="url(#jade)" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="150" cy="112" r="7" fill="#fff3c4"/>
+  </g>
+  <!-- giọt cam lộ -->
+  <g fill="#bfe9ff" opacity=".9">
+    <path d="M108 250 q10 -18 0 -30 q-10 12 0 30" />
+    <path d="M192 250 q10 -18 0 -30 q-10 12 0 30" />
+    <path d="M150 285 q12 -22 0 -36 q-12 14 0 36" />
+  </g>
+  <!-- sen -->
+  <g fill="none" stroke="#f0c75e" stroke-width="2.5" opacity=".85">
+    <path d="M150 330 Q138 300 118 292 Q138 288 150 306 Q162 288 182 292 Q162 300 150 330"/>
+    <path d="M150 330 Q150 312 150 306"/>
+    <path d="M96 330 Q120 322 140 330 M160 330 Q180 322 204 330" opacity=".6"/>
+  </g>
+  <rect x="14" y="14" width="272" height="392" fill="none" stroke="#f0c75e" stroke-width="3" opacity=".7"/>
+  <rect x="22" y="22" width="256" height="376" fill="none" stroke="#f0c75e" stroke-width="1" opacity=".35"/>
+  <text x="150" y="372" text-anchor="middle" font-family="serif" font-size="24" fill="#f0c75e" letter-spacing="4">CAM LỘ</text>
+</svg>

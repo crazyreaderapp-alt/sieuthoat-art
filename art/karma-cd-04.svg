@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#233026"/><stop offset="60%" stop-color="#121a14"/><stop offset="100%" stop-color="#070b08"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe9a8" stop-opacity=".7"/><stop offset="60%" stop-color="#f0c75e" stop-opacity=".2"/><stop offset="100%" stop-color="#f0c75e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff3c4"/><stop offset="100%" stop-color="#d8a93c"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="420" fill="url(#bg)"/>
+  <circle cx="150" cy="170" r="110" fill="url(#glow)"/>
+  <!-- chiến kỳ anh linh -->
+  <g>
+    <line x1="150" y1="70" x2="150" y2="300" stroke="#8a6a1a" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="150" cy="62" r="12" fill="url(#silk)"/>
+    <path d="M150 84 L246 108 L150 150 Z" fill="url(#silk)" opacity=".95"/>
+    <path d="M150 84 L246 108 L150 150" fill="none" stroke="#8a6a1a" stroke-width="2" opacity=".6"/>
+    <!-- kiếm lệnh vector (thay chữ Hán — không phụ thuộc font) -->
+    <g stroke="#7a5a10" stroke-width="4" stroke-linecap="round">
+      <line x1="188" y1="100" x2="188" y2="138"/>
+      <line x1="178" y1="106" x2="198" y2="106"/>
+      <path d="M188 138 l-6 10 M188 138 l6 10" />
+    </g>
+    <circle cx="188" cy="98" r="4" fill="#7a5a10"/>
+  </g>
+  <!-- 3 bóng anh linh bay lên -->
+  <g fill="#ffe9a8" opacity=".75">
+    <path d="M96 260 q14 -26 0 -44 q-14 18 0 44"/>
+    <path d="M150 280 q16 -30 0 -50 q-16 20 0 50"/>
+    <path d="M204 260 q14 -26 0 -44 q-14 18 0 44"/>
+  </g>
+  <g stroke="#f0c75e" stroke-width="2" opacity=".5" fill="none">
+    <path d="M60 320 q45 -20 90 0 t90 0 t0 0"/>
+  </g>
+  <rect x="14" y="14" width="272" height="392" fill="none" stroke="#f0c75e" stroke-width="3" opacity=".7"/>
+  <rect x="22" y="22" width="256" height="376" fill="none" stroke="#f0c75e" stroke-width="1" opacity=".35"/>
+  <text x="150" y="372" text-anchor="middle" font-family="serif" font-size="24" fill="#f0c75e" letter-spacing="4">ANH LINH</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#2a0d14"/><stop offset="60%" stop-color="#16060b"/><stop offset="100%" stop-color="#0a0305"/>
+    </radialGradient>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff4d5e" stop-opacity=".55"/><stop offset="60%" stop-color="#a3122a" stop-opacity=".22"/><stop offset="100%" stop-color="#a3122a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="blood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff7a8a"/><stop offset="55%" stop-color="#d6304a"/><stop offset="100%" stop-color="#7a0e20"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="420" fill="url(#bg)"/>
+  <circle cx="150" cy="185" r="115" fill="url(#aura)"/>
+  <!-- mặt nạ ma -->
+  <g>
+    <path d="M150 95 Q205 95 208 160 Q210 225 150 268 Q90 225 92 160 Q95 95 150 95 Z" fill="#1c0a10" stroke="url(#blood)" stroke-width="4"/>
+    <!-- sừng -->
+    <path d="M105 105 Q80 70 62 66 Q84 92 92 118 Z" fill="url(#blood)"/>
+    <path d="M195 105 Q220 70 238 66 Q216 92 208 118 Z" fill="url(#blood)"/>
+    <!-- mắt -->
+    <path d="M112 160 Q128 148 144 160 Q128 172 112 160 Z" fill="#ff2d44"/>
+    <path d="M188 160 Q172 148 156 160 Q172 172 188 160 Z" fill="#ff2d44"/>
+    <!-- miệng nanh -->
+    <path d="M118 215 Q150 232 182 215 L176 238 Q150 252 124 238 Z" fill="#0a0305" stroke="#d6304a" stroke-width="2"/>
+    <path d="M132 220 L138 238 L144 221 Z M156 222 L162 240 L168 221 Z" fill="#fff"/>
+  </g>
+  <!-- giọt máu -->
+  <g fill="url(#blood)">
+    <path d="M70 300 q12 -22 0 -36 q-12 14 0 36"/>
+    <path d="M230 300 q12 -22 0 -36 q-12 14 0 36"/>
+    <path d="M150 330 q14 -26 0 -42 q-14 16 0 42"/>
+  </g>
+  <rect x="14" y="14" width="272" height="392" fill="none" stroke="#d6304a" stroke-width="3" opacity=".8"/>
+  <rect x="22" y="22" width="256" height="376" fill="none" stroke="#d6304a" stroke-width="1" opacity=".4"/>
+  <text x="150" y="372" text-anchor="middle" font-family="serif" font-size="24" fill="#ff7a8a" letter-spacing="4">PHỆ HỒN</text>
+</svg>
