@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="78%">
+      <stop offset="0%" stop-color="#200a12"/><stop offset="60%" stop-color="#10040a"/><stop offset="100%" stop-color="#060203"/>
+    </radialGradient>
+    <radialGradient id="vortex" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff2d44" stop-opacity=".35"/><stop offset="55%" stop-color="#7a0e20" stop-opacity=".25"/><stop offset="100%" stop-color="#7a0e20" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="claw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8e8f0"/><stop offset="60%" stop-color="#8a8a9a"/><stop offset="100%" stop-color="#3a3a44"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="420" fill="url(#bg)"/>
+  <circle cx="150" cy="185" r="118" fill="url(#vortex)"/>
+  <!-- xoáy loạn vũ -->
+  <g fill="none" stroke="#d6304a" stroke-width="3" opacity=".65">
+    <path d="M150 75 a110 110 0 1 1 -95 55"/>
+    <path d="M150 295 a110 110 0 1 0 95 -55" opacity=".45"/>
+    <path d="M150 105 a80 80 0 1 0 -69 40" opacity=".5"/>
+  </g>
+  <!-- 3 lưỡi vuốt -->
+  <g>
+    <path d="M110 120 Q150 150 130 220 Q128 228 122 224 Q104 170 96 132 Q94 122 104 118 Z" fill="url(#claw)" stroke="#d6304a" stroke-width="2"/>
+    <path d="M152 108 Q182 150 158 226 Q154 234 148 228 Q136 170 132 128 Q132 116 144 114 Z" fill="url(#claw)" stroke="#d6304a" stroke-width="2"/>
+    <path d="M194 122 Q214 166 186 232 Q182 240 176 234 Q164 176 164 134 Q164 124 176 122 Z" fill="url(#claw)" stroke="#d6304a" stroke-width="2"/>
+  </g>
+  <!-- vệt máu -->
+  <g stroke="#ff2d44" stroke-width="4" stroke-linecap="round" opacity=".8" fill="none">
+    <path d="M70 260 q30 24 60 10"/>
+    <path d="M170 285 q30 20 60 4" opacity=".6"/>
+  </g>
+  <rect x="14" y="14" width="272" height="392" fill="none" stroke="#d6304a" stroke-width="3" opacity=".8"/>
+  <rect x="22" y="22" width="256" height="376" fill="none" stroke="#d6304a" stroke-width="1" opacity=".4"/>
+  <text x="150" y="372" text-anchor="middle" font-family="serif" font-size="20" fill="#ff7a8a" letter-spacing="4">FRENZIED DANCE</text>
+</svg>

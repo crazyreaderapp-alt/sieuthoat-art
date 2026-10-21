@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#1e0812"/><stop offset="55%" stop-color="#0e040b"/><stop offset="100%" stop-color="#050203"/>
+    </radialGradient>
+    <radialGradient id="eclipse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0305"/><stop offset="72%" stop-color="#0a0305"/><stop offset="82%" stop-color="#ff2d44"/><stop offset="100%" stop-color="#ff2d44" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="horn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c77dff"/><stop offset="100%" stop-color="#4a1e6a"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="420" fill="url(#bg)"/>
+  <!-- nhật thực máu -->
+  <circle cx="150" cy="150" r="92" fill="url(#eclipse)"/>
+  <circle cx="150" cy="150" r="66" fill="#050203"/>
+  <!-- vương miện ma đế -->
+  <g>
+    <path d="M92 268 L104 208 L128 236 L150 196 L172 236 L196 208 L208 268 Z" fill="#1c0a10" stroke="url(#horn)" stroke-width="4"/>
+    <circle cx="104" cy="204" r="7" fill="#ff2d44"/>
+    <circle cx="150" cy="192" r="9" fill="#ff2d44"/>
+    <circle cx="196" cy="204" r="7" fill="#ff2d44"/>
+    <!-- sừng cong -->
+    <path d="M96 250 Q60 220 58 170 Q92 200 104 236 Z" fill="url(#horn)"/>
+    <path d="M204 250 Q240 220 242 170 Q208 200 196 236 Z" fill="url(#horn)"/>
+  </g>
+  <!-- mắt ma đế -->
+  <g>
+    <ellipse cx="126" cy="288" rx="14" ry="8" fill="#ff2d44"/>
+    <ellipse cx="174" cy="288" rx="14" ry="8" fill="#ff2d44"/>
+    <circle cx="126" cy="288" r="3.5" fill="#0a0305"/>
+    <circle cx="174" cy="288" r="3.5" fill="#0a0305"/>
+  </g>
+  <!-- miệng vực -->
+  <ellipse cx="150" cy="322" rx="26" ry="12" fill="#0a0305" stroke="#d6304a" stroke-width="2"/>
+  <!-- tà khí bốc lên -->
+  <g stroke="#9d4edd" stroke-width="2.5" opacity=".6" fill="none" stroke-linecap="round">
+    <path d="M60 380 q14 -30 4 -60 q-8 -22 6 -44"/>
+    <path d="M240 380 q-14 -30 -4 -60 q8 -22 -6 -44"/>
+  </g>
+  <rect x="14" y="14" width="272" height="392" fill="none" stroke="#d6304a" stroke-width="3" opacity=".8"/>
+  <rect x="22" y="22" width="256" height="376" fill="none" stroke="#d6304a" stroke-width="1" opacity=".4"/>
+  <text x="150" y="404" text-anchor="middle" font-family="serif" font-size="20" fill="#ff7a8a" letter-spacing="3">HEAVEN DEVOURER</text>
+</svg>
