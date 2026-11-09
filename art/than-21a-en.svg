@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<!-- PLACEHOLDER có chủ đích (pha 3 Ngoại Giới) — art full-res vẽ lại sau khi Hiếu duyệt. Nền trong suốt thật. -->
+<circle cx="256" cy="230" r="150" fill="none" stroke="#ff6b4a" stroke-width="6" opacity="0.85"/>
+<circle cx="256" cy="230" r="118" fill="none" stroke="#ff6b4a" stroke-width="2" opacity="0.5"/>
+<text x="256" y="255" font-size="110" text-anchor="middle" fill="#ff6b4a">⚔</text>
+<text x="256" y="420" font-size="30" text-anchor="middle" fill="#f5efe0" font-family="serif">Life-Death Consecutive Strikes</text>
+<text x="256" y="458" font-size="18" text-anchor="middle" fill="#9a8f7a" font-family="serif">GOD PATH · temp art</text>
+</svg>
